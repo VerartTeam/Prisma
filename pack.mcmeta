@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "Prima",
+        "description": "Prisma is a modules library for mapmaking",
+        "version": "1.0.0",
+        "author": "Neylz",
+        "pack_format": 10
+    }
+}

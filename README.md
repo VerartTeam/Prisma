@@ -2,3 +2,24 @@
 
 # Prisma
 Prisma separates datapacks into modules like a prism diffracts light
+
+
+# Prisma modules
+
+## Modules Structure
+
+- `core` main functions - do not touch
+    - `loader`
+        - `updates`
+
+- `events` functions you can modify and that will be executed 
+- `cmd` functions you can execute from your code
+
+
+
+## Existing modules
+
+
+## Futures Modules
+- Player manager
+- forceload chunks
