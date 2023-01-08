@@ -16,7 +16,7 @@ tellraw @a {"text": " 888           888      888  88888P' 888  888  888 \"Y88888
 
 tellraw @a [{"text": "\n    "},{"text":"Loaded Modules:\n","underlined": true}]
 
-function prisma:core/load
+function prisma:private/load
 
 
 # load modules

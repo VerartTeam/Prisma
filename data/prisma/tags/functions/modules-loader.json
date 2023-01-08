@@ -1,5 +1,5 @@
 {
     "values": [
-        "prima-playermanager:core/loader/load"
+        "prima-playermanager:private/loader/load"
     ]
 }

@@ -8,7 +8,7 @@ Prisma separates datapacks into modules like a prism diffracts light
 
 ## Modules Structure
 
-- `core` main functions - do not touch
+- `private` main functions - do not touch
     - `loader`
         - `updates`
 
