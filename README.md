@@ -14,6 +14,7 @@ Prisma separates datapacks into modules like a prism diffracts light
 
 - `events` functions you can modify and that will be executed 
 - `cmd` functions you can execute from your code
+- `config` some customizable files
 
 
 

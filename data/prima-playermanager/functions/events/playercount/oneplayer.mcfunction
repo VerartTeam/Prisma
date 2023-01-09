@@ -1,4 +1,4 @@
-#> prima-playermanager:events/autoend/noplayer
+#> prima-playermanager:events/playercount/oneplayer
 #
 # ██████╗ ██████╗ ██╗███████╗███╗   ███╗ █████╗ 
 # ██╔══██╗██╔══██╗██║██╔════╝████╗ ████║██╔══██╗

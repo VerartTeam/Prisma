@@ -1,6 +1,8 @@
 #> prima-playermanager:private/loader/init
 #define score_holder $gameId psm.plmng.status
 #define score_holder ?isInLobby psm.plmng.status
+#define score_holder #playersOnline psm.plmng.status
+#define score_holder #teamsOnline psm.plmng.status
 
 # tick
 schedule clear prima-playermanager:private/tick
@@ -17,6 +19,9 @@ execute unless score ?isInLobby psm.plmng.status matches 0.. run scoreboard play
 
 scoreboard objectives add psm.plmng.status.player dummy
 
+
+scoreboard players set #playersOnline psm.plmng.status 0
+scoreboard players set #teamsOnline psm.plmng.status 0
 
 
 # tellraw
