@@ -20,12 +20,8 @@ Prisma separates datapacks into modules like a prism diffracts light
 
 
 ## Existing modules
-
+- Player manager
 
 ## Futures Modules
-- Player manager
 - forceload chunks
-
-## To do list
-- Player manager
-    - auto end events
+- (eventually) fake spectator
