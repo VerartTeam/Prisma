@@ -8,13 +8,14 @@ Prisma separates datapacks into modules like a prism diffracts light
 
 ## Modules Structure
 
-- `private` main functions - do not touch
-    - `loader`
-        - `updates`
-
-- `events` functions you can modify and that will be executed 
 - `cmd` functions you can execute from your code
 - `config` some customizable files
+- `events` functions you can modify and that will be executed
+- `private` main functions - do not touch
+    - `loader`
+        - `update`
+
+`tick` function is loaded from the init function in the loader. Tick functions will use schedules.
 
 
 
