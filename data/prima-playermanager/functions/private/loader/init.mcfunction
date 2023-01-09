@@ -37,4 +37,4 @@ scoreboard players set #teamsOnline psm.plmng.status 0
 
 
 ## Load message
-tellraw @a [{"text":"[","color":"dark_gray"},{"text":"Prismacore","color":"#E61B1B"},{"text":"] ","color":"dark_gray"},{"text":"Prisma core","color":"gray"},{"text":" (ver. ","italic":true},{"score":{"name":".playermanager","objective":"psm.modules.version"},"italic":true},{"text":")","italic":true}]
+tellraw @a [{"text":"[","color":"dark_gray"},{"text":"PrismaModules","color":"#fed513"},{"text":"] ","color":"dark_gray"},{"text":"Player Manager","color":"gray"},{"text":" (ver. ","italic":true},{"score":{"name":".playermanager","objective":"psm.modules.version"},"italic":true},{"text":")","italic":true}]
