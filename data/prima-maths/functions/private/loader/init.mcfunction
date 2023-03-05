@@ -18,6 +18,9 @@ scoreboard players set .input psm.maths.interface 0
 scoreboard players set .input_2 psm.maths.interface 0
 scoreboard players set .output psm.maths.interface 0
 
+scoreboard objectives add psm.maths.const dummy
+execute unless score .const_version psm.maths.const matches 1 run function prima-maths:private/loader/setup/const
+
 
 ## Load message
 tellraw @a [{"text":"[","color":"dark_gray"},{"text":"PrismaModules","color":"#fed513"},{"text":"] ","color":"dark_gray"},{"text":"Maths","color":"gray"},{"text":" (ver. ","italic":true},{"score":{"name":".maths","objective":"psm.modules.version"},"italic":true},{"text":")","italic":true}]
