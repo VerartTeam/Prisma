@@ -12,3 +12,6 @@
 
 # prisma:playermanager
 scoreboard players set .playermanager psm.modules 1
+
+# prisma:displayh
+scoreboard players set .playermanager psm.modules 1
