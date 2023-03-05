@@ -10,6 +10,9 @@
 # 1 to true
 
 
+# prisma:maths
+scoreboard players set .maths psm.modules 1
+
 # prisma:playermanager
 scoreboard players set .playermanager psm.modules 1
 

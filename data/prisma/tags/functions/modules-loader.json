@@ -1,5 +1,6 @@
 {
     "values": [
+        "prima-maths:private/loader/load",
         "prima-playermanager:private/loader/load",
         "prima-displayh:private/loader/load"
     ]

@@ -1,0 +1,1 @@
+execute positioned 0 0 0 rotated 0 0 summon marker run function prima-maths:private/maths/cosine/deg/process
