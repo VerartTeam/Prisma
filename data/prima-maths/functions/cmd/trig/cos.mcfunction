@@ -1,0 +1,1 @@
+function prima-maths:private/maths/cosine/deg/cos
