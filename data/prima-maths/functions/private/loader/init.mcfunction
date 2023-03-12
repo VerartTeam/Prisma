@@ -19,7 +19,7 @@ scoreboard players set .input_2 psm.maths.interface 0
 scoreboard players set .output psm.maths.interface 0
 
 scoreboard objectives add psm.maths.const dummy
-execute unless score .const_version psm.maths.const matches 2 run function prima-maths:private/loader/setup/const
+execute unless score .const_version psm.maths.const matches 4 run function prima-maths:private/loader/setup/const
 
 
 ## Load message

@@ -3,7 +3,7 @@
 
 
 ## version update
-scoreboard players set .const_version psm.maths.const 2
+scoreboard players set .const_version psm.maths.const 4
 
 
 ## constants
@@ -40,3 +40,7 @@ scoreboard players set #6 psm.maths.const 6
 scoreboard players set #7 psm.maths.const 7
 scoreboard players set #8 psm.maths.const 8
 scoreboard players set #9 psm.maths.const 9
+scoreboard players set #31 psm.maths.const 31
+
+
+scoreboard players set #500 psm.maths.const 500
