@@ -1,5 +1,8 @@
 from math import sqrt
 
+# the mod
+
+
 def acos(x):
 	# from https://developer.download.nvidia.com/cg/acos.html
 	if (x<0):
@@ -20,43 +23,26 @@ def acos(x):
 
 def acosint(n):
 	# input fake floats with 1 <=> 10^3
-
 	# convert to 10^4
 	n *= 10
-
-	negate = int(n<0)
-		
+	negate = int(n<0)	
 	n = abs(n)
-		
 	ret = -187
-
 	ret = ret * n
 	ret /= 10000
-
 	ret += 742
-
 	ret = ret * n
 	ret /= 10000
-
 	ret -= 2121
-
 	ret = ret * n
 	ret /= 10000
-
 	ret += 15707
-
-
 	ret = (ret) * (sqrt(10000-n))/100
-
 	ret -= 2 * ret * negate
-
 	return int((negate * 31415) + ret)
 
 def acosint2(n):
-	# input fake floats with 1 <=> 10^3
-
-	# convert to 10^4
-	n *= 10
+	# input fake floats with 1 <=> 10^4
 
 	negate = int(n<0)
 	n = abs(n)
@@ -76,4 +62,4 @@ def acosint2(n):
 	ret -= int(2 * ret * negate)
 	return int((negate * 31415) + ret)
 
-print(acosint(-842), acosint2(-842), acos(-0.8421052632))
+print(acosint(-842), acosint2(-8420), acos(0.8421052632))

@@ -1,6 +1,6 @@
-# input in 10^3
+# input in 10^4
 # process in 10^4
-# output in 10^3
+# output in 10^4
 
 ## init
 scoreboard players operation #input_arccos psm.maths.interface = .input psm.maths.interface
@@ -26,20 +26,19 @@ scoreboard players operation #output_arccos psm.maths.interface /= #10000 psm.ma
 
 scoreboard players add #output_arccos psm.maths.interface 15707
 
-#sqrt 
-scoreboard players set .input psm.maths.interface 10000
+# sqrt
+scoreboard players set .input psm.maths.interface 100000000
+scoreboard players operation #input_arccos psm.maths.interface *= #10000 psm.maths.const
+
 scoreboard players operation .input psm.maths.interface -= #input_arccos psm.maths.interface
 
 function prima-maths:private/maths/sqrt/newton2/sqrt
 
 
-# output
-scoreboard players operation .output psm.maths.interface /= #100 psm.maths.const
 
 scoreboard players operation .output psm.maths.interface *= #output_arccos psm.maths.interface
+scoreboard players operation .output psm.maths.interface /= #10000 psm.maths.const
+
 
 # negate
-execute if score #negate psm.maths.interface matches 1 run function prima-maths:private/maths/arccosine/negate
-
-## output
-scoreboard players operation .output psm.maths.interface /= #10 psm.maths.const
+execute if score #negate psm.maths.interface matches 1 run function prima-maths:private/maths/arccosine/negative_pi/negate
