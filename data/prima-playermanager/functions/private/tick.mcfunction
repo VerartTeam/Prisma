@@ -26,4 +26,4 @@ execute if score #teamsOnline psm.plmng.status matches 1 run function prima-play
 ## player leaves
 execute store result score #players.count psm.plmng.status if entity @a
 execute unless score #players.count psm.plmng.status = #players.count.previous psm.plmng.status run function prima-playermanager:events/playerleaves
-scoreboard players operation #players.count psm.plmng.status = #players.count.previous psm.plmng.status
+scoreboard players operation #players.count.previous psm.plmng.status = #players.count psm.plmng.status
