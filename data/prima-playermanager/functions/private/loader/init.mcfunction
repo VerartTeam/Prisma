@@ -13,7 +13,7 @@
 
 
 ## module version
-scoreboard players set .playermanager psm.modules.version 1
+scoreboard players set .playermanager psm.modules.version 2
 
 
 ## tick
@@ -34,6 +34,10 @@ scoreboard objectives add psm.plmng.status.player dummy
 
 scoreboard players set #playersOnline psm.plmng.status 0
 scoreboard players set #teamsOnline psm.plmng.status 0
+
+# player leaves
+execute store result score #players.count psm.plmng.status if entity @a
+scoreboard players operation #players.count psm.plmng.status = #players.count.previous psm.plmng.status
 
 
 ## Load message
