@@ -12,3 +12,6 @@
 
 # prisma:playermanager
 scoreboard players set .playermanager psm.modules 1
+
+# prisma:dynmem
+scoreboard players set .dynmem psm.modules 1

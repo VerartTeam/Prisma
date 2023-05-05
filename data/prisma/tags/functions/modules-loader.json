@@ -1,5 +1,6 @@
 {
     "values": [
-        "prima-playermanager:private/loader/load"
+        "prima-playermanager:private/loader/load",
+        "prima-dynmem:private/loader/load"
     ]
 }
